@@ -81,10 +81,6 @@ html,body{
   margin-left: 15px;
 }
 
-.nav-right{
-  margin-right: 15px;
-}
-
 .nav-left a{
   font-family: 'Changa', sans-serif;
   font-size: 2.3rem;
@@ -92,9 +88,19 @@ html,body{
   letter-spacing: 5px;
 }
 
+.nav-right{
+  margin-right: 15px;
+}
+
 .nav-menu .nav-right a{
   font-family: 'Play', 'Courier New', Courier, monospace;
   font-size: 1.11rem;
+  transition: color 0.3s ease;
+}
+
+.nav-right ul li a:hover{
+  color: #FF4655;
+  
 }
 
 /* ----------------------------------------------------------------- */
