@@ -24,6 +24,7 @@
     font-size: 14px;
     transition: all .15s ease;
     top: calc(450px);
+    user-select: none;
   }
   
   .button::before,

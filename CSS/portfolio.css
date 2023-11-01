@@ -86,6 +86,7 @@ html,body{
   font-size: 2.3rem;
   padding: 0 15px;
   letter-spacing: 5px;
+  user-select: none;
 }
 
 .nav-right{
@@ -95,6 +96,7 @@ html,body{
 .nav-menu .nav-right a{
   font-family: 'Play', 'Courier New', Courier, monospace;
   font-size: 1.11rem;
+  user-select: none;
   transition: color 0.3s ease;
 }
 
@@ -103,9 +105,15 @@ html,body{
   
 }
 
+.nav-right ul li img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
 /* ----------------------------------------------------------------- */
 /* Main */
-
 
 .main{
   display: flex;
