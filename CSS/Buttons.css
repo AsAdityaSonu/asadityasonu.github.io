@@ -1,10 +1,11 @@
 :root{
     --button-border:white;
+    --button-color:white;
   }
   
   .light-theme{
     --button-border:black;
-  
+    --button-color:white;
   }
 /* ------------------------------------------------------------------ */
 /* Download CV */
@@ -114,6 +115,8 @@
   }
   
   .button_text {
+    text-decoration: none;
+    color: var(--button-color);
     position: relative;
     letter-spacing: 3px;
   }
