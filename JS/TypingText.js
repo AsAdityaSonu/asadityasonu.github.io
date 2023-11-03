@@ -1,4 +1,5 @@
 // script.js
+const pre = "--> ";
 const Text = ["Django Developer", "Graphic Designer", "baki pata nahi 🫠"];
 
 const textElement = document.getElementById("typing-text");
@@ -21,7 +22,7 @@ function typing() {
             setTimeout(typing, 50); // Typing speed
         }
     } else {
-        textElement.textContent = currentText.substring(0, charIndex);
+        textElement.textContent = pre + currentText.substring(0, charIndex);
 
         if (charIndex === 0) {
             isErasing = false;
